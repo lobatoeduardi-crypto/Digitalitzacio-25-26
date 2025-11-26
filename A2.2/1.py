@@ -1,4 +1,4 @@
-# 2.1 Crear y acceder a valores
+# Crear y acceder a valores
 cotxe = {
     "marca": "Toyota",
     "model": "Corolla",
