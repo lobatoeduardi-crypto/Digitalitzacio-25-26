@@ -1,5 +1,8 @@
-notas = {'Anna': [8, 9, 7], 'Pau': [5, 6, 6]}
+# Diccionario de notas
+notes = {'Anna': [8, 9, 7], 'Pau': [5, 6, 6]}
 
-for alumno, lista_notas in notas.items():
-    media = sum(lista_notas) / len(lista_notas)
-    print(f"{alumno} → {round(media, 2)}")
+# Calcular y mostrar medias
+for alumne, llistanotes in notes.items():
+    mitjana = sum(llistanotes) / len(llistanotes)
+    print(f"{alumne} → {mitjana:.2f}")
+
